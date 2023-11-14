@@ -27,6 +27,8 @@ Cmake:Our group decided to use CMake, a more advanced compiler configuration too
 4. Create a build task named "build" in our file.
 5. Configure VS Code to run and debug tests directly from the editor. 
 ---
+### 3.Github action:
+Create athe GitHub Actions workflow in a YAML file (cmake-multi-platform.yml) to achieve Continuous Integration.  
 
 ## Use this Project 
 ### 1.To automate testing
