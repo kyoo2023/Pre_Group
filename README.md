@@ -13,13 +13,13 @@ Besides, we implement these 3 test for the system:<br>
 ## These conditions should be prepared for this project:
 ### 1.GoogleTest:
 Clients must have the GoogleTest to make this project could be run. If the you do not have the Googletest, there are some steps for you to get it:
-1.xxxxx(dai bu chong)
-2.xxxxx
+1. xxxxx(dai bu chong)
+2. xxxxx
 3. ...
 
 ### 2.CMake:
 Clients must have the CMake to make this project could be run. If you donot one, there are some steps for you to get it:
-1.xxx
+1. xxx
 2. ...
 
 ---
