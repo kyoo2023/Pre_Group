@@ -44,10 +44,10 @@ Cmake:Our group decided to use CMake, a more advanced compiler configuration too
 5. Configure VS Code to run and debug tests directly from the editor. 
 ---
 ### 4.Github action:
-1.Create athe GitHub Actions workflow in a YAML file (cmake-multi-platform.yml) to achieve Continuous Integration.  
-2.Use "on" to trigger on every push to the main branch.
-3.Use "jobs" to define a single job named build that runs on the latest version of the Ubuntu environment.
-4.Use "Steps" to checkout repository、set up CMake、run tests.
+1. Create athe GitHub Actions workflow in a YAML file (cmake-multi-platform.yml) to achieve Continuous Integration.  
+2. Use "on" to trigger on every push to the main branch.
+3. Use "jobs" to define a single job named build that runs on the latest version of the Ubuntu environment.
+4. Use "Steps" to checkout repository、set up CMake、run tests.
 
 ## Use this Project 
 
@@ -71,8 +71,8 @@ Use Github action to complete continuous integration, which can improve producti
 
 
 ## Contact Us
-Jianqiao Zhao:  cwnq56@durham.ac.uk
-Xiangyi He: sxdt87@durham.ac.uk
+Jianqiao Zhao:  cwnq56@durham.ac.uk <br>
+Xiangyi He: sxdt87@durham.ac.uk <br>
 Yizhi Fang: thxt38@durham.ac.uk
 Yumen Xie: gccw95@durham.ac.uk
 Zhiyu Zhu: rhth53@durham.ac.uk
