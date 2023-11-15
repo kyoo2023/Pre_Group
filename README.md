@@ -24,7 +24,7 @@ CMake is then used to automate the build process and ultimately implement contin
 · Open Terminal or Command Prompt.</br>
 · Use the git clone command with the repository's SSH address to clone it： git clone git@github.com:user/repo.git.</br>
 2. Connect the Cloned Repository to the Group Project:</br>
-· Set the URL for the remote repository: git remote add origin <group project's SSH URL>.</br>
+· Set the URL for the remote repository: git remote add origin <git@github.com:user/repo.git.>.</br>
 · Push the code to the new repository: git push -u origin master or git push -u origin main (depending on your branch name).</br>
 
 
