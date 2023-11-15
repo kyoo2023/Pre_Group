@@ -2,6 +2,11 @@
 Group Course by Group4
 
 ## Purpose of this project
+a = u_{ij}
+b = v_{ij}
+dU = Du * laplaceU - ab^2 + F*(1-a)
+dV = Dv * laplaceV + ab^2 + (F+K)*b
+
 This Project simulates a Gray-Scott reaction-diffusion system and outputs some VTK files for visualization.<br>
 Besides, we implement these 3 test for the system:<br>
 1. Check that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.
@@ -15,9 +20,9 @@ Besides, we implement these 3 test for the system:<br>
 Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake.Here are some of the steps we take to use GoogleTest：
 1. Clone the GoogleTest repository from GitHub and build GoogleTest using CMake.
 2. Create a Test Directory.
-3. The first test we use "std::is_same" to check whether F,K are the same as double.
-4. The second test we creates a checksize function and uses an if statement to determine if the row size and column size are the same.
-5. The third test
+3. The first test we use 'typeid()' to check the type of the input of F,K. They are supposed to be float.
+4. The second test we use '.size()' to check the size of the input of U and V. They are supposed to be Multidimensional Arrays.
+5. The third test we simply let u=0 and v=0  compute the finalvalue of the 
 
 ### 2.CMake:
 Cmake:Our group decided to use CMake, a more advanced compiler configuration tool，which doesn't have to write a makefile for each standard.Here are some of the steps we take to use cmake：
@@ -49,11 +54,11 @@ zhe li xie shu chu
 # participants:
 1. Jianqiao Zhao @cwnq56
 2. Yumen Xie @gccw95
-3. Yizhi Fang @xxxx
+3. Yizhi Fang @thxt38
 4. Xiangyi He @xxxx
 5. Zhiyu Zhu @rhth53
 
 ---
 
 # Contact Us:
-Email of us: shei ba zi ji email xie shang qu
+Email of us: thxt38@durham.ac.uk
