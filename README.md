@@ -50,9 +50,9 @@ Cmake:Our group decided to use CMake, a more advanced compiler configuration too
 ---
 ### 4.Github action:
 1. Create athe GitHub Actions workflow in a YAML file (cmake-multi-platform.yml) to achieve Continuous Integration.  
-2. Use "on" to trigger on every push to the test_1 branch.
-3. Use "jobs" to define a single job named build that runs on the latest version of the Ubuntu environment.
-4. Use "Steps" to checkout repository、set up CMake、run tests.
+2. Use "on" to trigger on every push to the main and test_1 branch.
+3. Use "jobs" to define a single job named build that runs on the latest version of the ubuntu and windows environment.
+4. Use "steps" to checkout repository、set up CMake、run tests.
 
 ## Use this Project 
 
