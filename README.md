@@ -44,12 +44,12 @@ Our group decided to use the GoogleTest tool，because GoogleTest provides a com
 Considering that we use C++ to write the project, we chose a common tool: CMake. It has two obvious advantages: it does not limit the use of platforms and you can use add and other commands in the terminal to simplify the introduction and management of third-party libraries.
 Here are some of the steps we take to use CMake：
 1. Download the compilation tool MinGW and set up the CMake environment. 
-2. Write the cmakelists file and indicate the dependency on Googletest：
-   Use cmake_minimum_required to limit the minimum version requirements of cmake;
-   Use project(my_project) to create a project;
-   Use add_executable to compile source files into executable files.
-4. Create a build task named "build" in our file.
-5. Configure VS to run and debug tests directly from the editor. 
+2. Write the cmakelists file and indicate the dependency on Googletest:</br>
+   Use cmake_minimum_required to limit the minimum version requirements of cmake;</br>
+   Use project(my_project) to create a project;</br>
+   Use add_executable to compile source files into executable files.</br>
+3. Create a build task named "build" in our file.
+4. Configure VS to run and debug tests directly from the editor. 
 
 ### 4.Github action:
 1. Create athe GitHub Actions workflow in a YAML file (cmake-multi-platform.yml) to achieve Continuous Integration.  
