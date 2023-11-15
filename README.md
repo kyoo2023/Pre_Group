@@ -20,7 +20,7 @@ CMake is then used to automate the build process and ultimately implement contin
 ## Preparation Conditions & Implementation Process:
 
 ### 1. Clone the template repository 
-1. Clone the Repository:
+1. Clone the Repository:</br>
 · Open Terminal or Command Prompt.</br>
 · Use the git clone command with the repository's SSH address to clone it, e.g., git clone git@github.com:user/repo.git.</br>
 
@@ -73,10 +73,10 @@ Use Github action to complete continuous integration, which can improve producti
 
 
 ## Contact Us
-Jianqiao Zhao:  cwnq56@durham.ac.uk <br>
-Xiangyi He: sxdt87@durham.ac.uk <br>
-Yizhi Fang: thxt38@durham.ac.uk
-Yumen Xie: gccw95@durham.ac.uk
+Jianqiao Zhao:  cwnq56@durham.ac.uk </br>
+Xiangyi He: sxdt87@durham.ac.uk </br>
+Yizhi Fang: thxt38@durham.ac.uk</br>
+Yumen Xie: gccw95@durham.ac.uk</br>
 Zhiyu Zhu: rhth53@durham.ac.uk
 
 ## Acknowledgments
