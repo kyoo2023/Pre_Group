@@ -20,8 +20,10 @@ CMake is then used to automate the build process and ultimately implement contin
 ## Preparation Conditions & Implementation Process:
 
 ### 1. Clone the template repository 
-Clone the template repository and connect the cloned repository with the group project via GitHub's SSH keys:
-...
+1. Clone the Repository:
+· Open Terminal or Command Prompt.</br>
+· Use the git clone command with the repository's SSH address to clone it, e.g., git clone git@github.com:user/repo.git.</br>
+
 
 ### 2. GoogleTest
 Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake.Here are some of the steps we take to use GoogleTest：
@@ -63,10 +65,10 @@ Use Github action to complete continuous integration, which can improve producti
 ---
 
 ## Participants
-1. Jianqiao Zhao @cwnq56
-2. Xiangyi He @sxdt87
-3. Yizhi Fang @thxt38
-4. Yumen Xie @gccw95
+1. Jianqiao Zhao @cwnq56</br>
+2. Xiangyi He @sxdt87</br>
+3. Yizhi Fang @thxt38</br>
+4. Yumen Xie @gccw95</br>
 5. Zhiyu Zhu @rhth53
 
 
