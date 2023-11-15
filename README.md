@@ -22,17 +22,8 @@ CMake is then used to automate the build process and ultimately implement contin
 ### 1. Clone the template repository 
 1. Clone the Repository:</br>
 · Open Terminal or Command Prompt.</br>
-· Use the git clone command with the repository's SSH address to clone it, e.g., git clone git@github.com:user/repo.git.</br>
-
-2. Generate an SSH Key (if you don't already have one):</br>
-· Run ssh-keygen in the terminal and follow the prompts.</br>
-· View the public key with cat ~/.ssh/id_rsa.pub.</br>
-
-3. Add SSH Key to GitHub:</br>
-· Log in to GitHub and go to “Settings” > “SSH and GPG keys”.</br>
-· Click “New SSH key”, paste your public key, and save.</br>
-
-4. Connect the Cloned Repository to the Group Project:</br>
+· Use the git clone command with the repository's SSH address to clone it： git clone git@github.com:user/repo.git.</br>
+2. Connect the Cloned Repository to the Group Project:</br>
 · Set the URL for the remote repository: git remote add origin <group project's SSH URL>.</br>
 · Push the code to the new repository: git push -u origin master or git push -u origin main (depending on your branch name).</br>
 
