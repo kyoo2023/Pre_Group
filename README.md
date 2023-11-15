@@ -1,21 +1,41 @@
-# Group 4 Solution
-Group Course by Group4
+# Pre_Group
+# Group4_Course
 
-## Purpose of this project
-a = u_{ij}
-b = v_{ij}
-dU = Du * laplaceU - ab^2 + F*(1-a)
-dV = Dv * laplaceV + ab^2 + (F+K)*b
 
-This Project simulates a Gray-Scott reaction-diffusion system and outputs some VTK files for visualization.<br>
-Besides, we implement these 3 test for the system:<br>
-1. Check that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.
-2. Check that the variables u and v are the same size.
-3. Check that the simulation produces the mathematically correct answer when u = 0 and v = 0.
+## Project Title
 
----
+Agile, Responsible, and Collaborative Development
 
-## These conditions our group prepared for this project:
+
+## Project Description
+
+In order to achieve the goal of developing basic documentation and building development software, we need to complete the implementation of the build system and storage continuous integration of repositories.
+
+The specific task is to clone the template repository and use the Google test testing framework to implement the following three tests:
+1.Check that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.
+2.Check that the variables u and v are the same size.
+3.Check that the simulation produces the mathematically correct answer when u = 0 and v = 0. 
+CMake is then used to automate the build process and ultimately implement continuous integration(CI).
+
+
+## Preparation Conditions & Implementation Process:
+
+1. Clone the template repository 
+Clone the template repository and connect the cloned repository with the group project via GitHub's SSH keys:
+...
+
+2. GoogleTest
+Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake.Here are some of the steps we take to use GoogleTest：
+2.1 Clone the GoogleTest repository from GitHub and build GoogleTest using CMake.
+
+2.2 Create a Test Directory
+
+2.3.1 The first test we use "std::is_same" to check whether F,K are the same as double.
+
+2.3.2 The second test we creates a checksize function and uses an if statement to determine if the row size and column size are the same.
+
+2.3.3 The third test 
+
 ### 1.GoogleTest:
 Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake.Here are some of the steps we take to use GoogleTest：
 1. Clone the GoogleTest repository from GitHub and build GoogleTest using CMake.
