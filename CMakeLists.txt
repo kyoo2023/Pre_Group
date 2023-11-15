@@ -21,7 +21,7 @@ add_executable(
   gs
   gs.cpp
 )
-target_link_libraries(gstest
+target_link_libraries(gs
   GTest::gtest_main
 )
 
