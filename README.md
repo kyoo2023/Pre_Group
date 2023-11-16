@@ -71,7 +71,7 @@ The result of testing
 
 The result of CI
 
-![image] (https://github.com/kyoo2023/Pre_Group/blob/test-1/ContinuousIntegrationResult.png)
+![image](https://github.com/kyoo2023/Pre_Group/blob/test-1/ContinuousIntegrationResult.png)
 ---
 
 ## Participants
