@@ -29,16 +29,14 @@ CMake is then used to automate the build process and ultimately implement contin
 
 
 ### 2. GoogleTest
-Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake.Here are some of the steps we take to use GoogleTest：
-2.1 Clone the GoogleTest repository from GitHub and build GoogleTest using CMake.
+Our group decided to use the GoogleTest tool，because GoogleTest provides a comprehensive set of features for writing and organizing tests and GoogleTest integrates well with popular build systems like CMake. (In fact, at first, I write the test on Visual Studio, where has combined GoogleTest. And copy them to the right place after all tests were successful) 
 
-2.2 Create a Test Directory
+2.1 The first test we use 'typeid()' to check the type of the input of F,K. They are supposed to be float.
 
-2.3.1 The first test we use 'typeid()' to check the type of the input of F,K. They are supposed to be float.
+2.2 The second test we use '.size()' to check the size of the input of U and V. They are suppossed to be Multidiwmensional Arrays.
 
-2.3.2 The second test we use '.size()' to check the size of the input of U and V. They are supposed to be Multidimensional Arrays.
-
-2.3.3 The third test we simply let u=0 and v=0  compute the finalvalue of the
+2.3 The third test we simply let u=0 and v=0, compute the finalvalue of the dU and dV check whether it is right. 
+   Based on the physical meanings of the u and v are the concentration of the chemicals, we also use the function countElementAboveThreshold(Threshold) to see whether this number is 0.
 
 ### 3.CMake:
 Considering that we use C++ to write the project, we chose a common tool: CMake. It has two obvious advantages: it does not limit the use of platforms and you can use add and other commands in the terminal to simplify the introduction and management of third-party libraries.
