@@ -8,13 +8,13 @@ Agile, Responsible, and Collaborative Development
 
 ## Project Description
 
-In order to achieve the goal of developing basic documentation and building development software, we need to complete the implementation of the build system and storage continuous integration of repositories.
+In order to achieve the goal of developing basic documentation and building development software, we need to complete the implementation of the build system and storage continuous integration of repositories.</br>
 
-The specific task is to clone the template repository and use the Google test testing framework to implement the following three tests:
-1.Check that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.
-2.Check that the variables u and v are the same size.
-3.Check that the simulation produces the mathematically correct answer when u = 0 and v = 0. 
-CMake is then used to automate the build process and ultimately implement continuous integration(CI).
+The specific task is to clone the template repository and use the Google test testing framework to implement the following three tests:</br>
+1.Check that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.</br>
+2.Check that the variables u and v are the same size.</br>
+3.Check that the simulation produces the mathematically correct answer when u = 0 and v = 0. </br>
+CMake is then used to automate the build process and ultimately implement continuous integration(CI).</br>
 
 
 ## Preparation Conditions & Implementation Process:
