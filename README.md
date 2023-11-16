@@ -65,7 +65,12 @@ Use Github action to complete continuous integration, which can improve producti
 ---
 
 ## Expected Output
+The result of testing
+
 ![image] (https://github.com/kyoo2023/Pre_Group/blob/test-1/CtestResult.png)
+
+The result of CI
+
 ![image] (https://github.com/kyoo2023/Pre_Group/blob/test-1/ContinuousIntegrationResult.png)
 ---
 
